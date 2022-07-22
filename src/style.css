@@ -1,0 +1,415 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('./Enrique-BoldRound.ttf') format('ttf'),
+      url('./Enrique-LightRound.ttf') format('ttf'),
+      url('./Enrique-Round.ttf') format('ttf'),;
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+#content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    font-family: 'MyFont';
+    background-color: black;
+    width: 100vw;
+    height: 60px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.logopic {
+    background: url('./sushilogo.png');
+    height: 35px;
+    width: 35px;
+    align-self: center;
+    position: relative;
+    background-color: red;
+    border-radius: 25px;
+}
+
+.logo {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+    gap: 14px;
+    color: white;
+}
+
+
+
+.sushibody {
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+
+}
+
+.mainbody {
+    flex-grow: 1;
+}
+
+.sushiimage {
+    height: 65vh;
+    width: 70vw;
+    display: flex;
+}
+
+
+
+.actualimage {
+    flex-grow: 1;
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    right: 40px;
+    box-shadow: 2px 3px 2px 4px #E5E5E5;
+}
+
+
+
+
+.linkbox {
+    width: 400px;
+    display: flex;
+   align-items: center;
+   justify-content: flex-start;
+  
+}
+
+.body {
+
+    display: flex;
+    background-color: white;
+    flex-grow: 1;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    gap: 50px;;
+
+}
+
+li {
+    font-weight: bolder;
+}
+
+
+.mainbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.maincontainer {
+    height: 60vh;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstword {
+    font-size: 52px;
+    font-weight: bolder;
+}
+
+.secondword {
+width: 300px;
+font-size: 42px;
+font-weight: bolder;
+}
+
+
+.homeword {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 3vh;
+    width: 100%;
+    justify-content: center;
+    box-shadow:  4px 4px 4px #E5E5E5;
+    padding: 8px;
+    margin: 12px;
+}
+
+
+.thirdword {
+    width: 250px;
+    background-color: black;
+    height: 4px;
+
+    
+
+}
+
+.fourthword {
+    width: 400px;
+    font-size: 32px;
+    font-weight: bolder;
+    align-self: center;
+}
+
+.realword {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+
+}
+
+.secondrealword {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.button {
+
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 25px;
+ 
+}
+
+.button:hover {
+    background-color: #E5E5E5;
+}
+
+
+
+/* Start of Menu */
+
+
+
+.sushibodytwo {
+    width: 50vw;
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-shrink: 2;
+}
+
+.mainbodytwo {
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    flex-shrink: 1;
+    position: relative;
+}
+
+.bento {
+    flex-grow: .5;
+    padding: 40px;
+}
+
+.pattern {
+padding: 40px;
+width: 600px;
+}
+
+
+
+.realmenu {
+    height: 800px;
+    width: 500px;
+    float: left;
+    position: absolute;
+    left: 300px;
+    top: 75px;
+    background-color: white;
+    box-shadow:  4px 4px 4px 4px #E5E5E5;
+    display: flex;
+    flex-direction: column;
+}
+
+.koitwo {
+    height: 600px;
+    width: 800px;
+    position: relative;
+    transform: rotate(230deg);
+}
+
+
+.koi {
+    height: 600px;
+    width: 800px;
+    position: relative;
+    top: 600px;
+    transform: rotate(200deg);
+    left: 300px;
+}
+
+.textbox {
+    flex-grow: 1;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menutitle {
+    text-align: center;
+    font-size: 52px;
+    font-weight: bolder;
+
+}
+
+.menucontainer {
+    justify-content: space-around;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+
+}
+
+.menulist {
+    font-weight: 200;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondmenu {
+    display: flex;
+
+}
+
+li {
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    padding: 8px;
+}
+
+li  {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  li:hover, li:focus, li:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+
+
+ .button  {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .button:hover, .button:focus, .button:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+
+   
+
+/* Starting About Page Design */
+
+.sushibodythree {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainbodythree {
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+z-index: 5;
+}
+
+.grid {
+    flex-grow: 1;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 0;
+}
+
+
+
+.firstrow,
+.secondrow {
+    flex-grow: 1;
+    flex-basis: 0;
+    display: flex;
+    gap: 12px;
+}
+
+
+.imageone {
+    height: 20px;
+    width: 20px;
+
+}
+
+.testt {
+    height: 100%;
+    width: 100%;
+}
+
+.pictwo,
+.picthree {
+    height: 100%;
+    width: 100%;
+}
+
+.testt:hover {
+    background-color: white;
+}
+
+
+
+.header {
+    z-index: 10;
+    position: absolute;
+}
+
